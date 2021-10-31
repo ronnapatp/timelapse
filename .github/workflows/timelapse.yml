@@ -29,6 +29,7 @@ jobs:
       - run: yarn
       - run: node main.js
         env:
+          GIT_COMMITTER_NAME: potbye
           GIT_AUTHOR_NAME: potbye
           EMAIL: piegame.sri@gmail.com
       - name: Save changed files
