@@ -31,7 +31,7 @@ jobs:
         env:
           GIT_COMMITTER_NAME: potbye
           GIT_AUTHOR_NAME: potbye
-          EMAIL: piegame.sri@gmail.com
+          EMAIL: potbye@users.noreply.github.com
       - name: Save changed files
         run: |
           git diff --name-only origin/main | tee /tmp/changes.filelist.txt
@@ -63,4 +63,3 @@ jobs:
               }
             }
           EOF
-
