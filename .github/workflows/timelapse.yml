@@ -28,10 +28,8 @@ jobs:
           sudo apt-get install fonts-noto-color-emoji fonts-noto -y
       - run: yarn
       - run: node main.js
-        env:
-          GIT_COMMITTER_NAME: potbye
-          GIT_AUTHOR_NAME: potbye
-          EMAIL: piegame.sri@gmail.com
+          git config user.email "piegame.sri@gmail.com"
+            git config user.name "potbye"
       - name: Save changed files
         run: |
           git diff --name-only origin/main | tee /tmp/changes.filelist.txt
