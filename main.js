@@ -141,3 +141,8 @@ process.on('unhandledRejection', (up) => {
 })
 
 main()
+
+fs.writeFileSync(
+      "README.md",
+      `Updated at ${new Date().toLocaleString()}`
+)
