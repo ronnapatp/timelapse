@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "execa": "^5.0.0",
-    "glob": "^7.1.6",
+    "glob": "^7.2.0",
     "imagemin": "^7.0.1",
     "imagemin-pngquant": "^8.0.0",
     "jimp": "^0.9.5",
