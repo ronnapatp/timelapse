@@ -14,5 +14,7 @@ module.exports = /** @type {TimelapseProjectConfig} */ ({
     await capture(page, 'jp')
     await page.goto('https://in-the-office-for.web.app/korea.html')
     await capture(page, 'kr')
+    await page.goto('https://operation-rome.bossoq.live/')
+    await capture(page, 'kr')
   },
 })
